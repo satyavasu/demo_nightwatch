@@ -1,0 +1,29 @@
+{
+  "name": "learn-nightwatch",
+  "version": "0.0.1",
+  "description": "Learn how to use nightwatch for front-end testing",
+  "main": "index.js",
+  "scripts": {
+    "test-log": "nightwatch --verbose --env default --tag testgoogle",
+    "test": "nightwatch --env default --tag testgoogle"
+  },
+  "author": "Satya",
+  "license": "test license",
+  "dependencies": {
+    "nightwatch": "^1.0.17",
+    "saucelabs": "^1.3.0",
+    "selenium-download": "^2.0.7"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.40.0",
+    "env2": "^2.1.1",
+    "mime-types": "^2.1.13",
+    "nodemon": "^1.11.0",
+    "selenium-server": "^3.10.0"
+  },
+  "keywords": [
+    "nightwatch",
+    "testing",
+    "front-end"
+  ]
+}
